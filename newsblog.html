@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Pavithra Busipalli" content="busipallipavitra@gmail.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>News Blog</title>
+</head>
+<body>
+
+    <header>
+        <div class="subhead">
+            <div class="base">
+                <h1>NEWS BLOG</h1>
+                <h5>WORLDWIDE NEWS</h5>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar">
+        <div class="nav-1">
+            <label>Category</label><br>
+            <select name="SELECT CATEGORY" onchange="window.location.hash = this.value;">
+                <option value="#">All</option>
+                <option value="#Politics">Politics</option>
+                <option value="#Technology">Technology</option>
+                <option value="#Business">Business & Finance</option>
+                <option value="#Sports">Sports</option>
+                <option value="#Environment">Environment</option>
+
+            </select>
+        </div>
+        
+        <div class="nav-2">
+            <h1 style="font-size: xX-large;">ALL NEWS</h1>
+        </div>
+
+        <div class="nav-3">
+            <label for="email">
+                <input type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="background-color: white; height:30px; border: 1px solid grey; "><button class="subscribe" onclick="window.alert('Subscribed Successfully..!')">Subscribe</button>
+            </label>
+        </div>
+    </nav>
+    
+
+    <hr class="first-hr">
+       
+    
+    <main>
+
+        <article class="item" id="Politics">
+            <img src="imgs/vote.jpg" alt="Image 2">
+            <div class="content">
+                <h2 class="head">EVM Launch in India for Secure voting..!</h2>
+                <p class="para">Published on 11 May, 2024//Animal All</p>
+                <p>Politics isn’t just about the headlines or election season fireworks; it’s the subtle yet significant undercurrent 
+                    that determines the direction of public policy and community welfare. From public parks to pension funds, politics 
+                    touches everything that matters to us. Its importance cannot be overstated, as it crafts the narrative of our shared 
+                    journey and individual stories. As you prepare to digest the deeper significance of politics, ponder
+                </p>
+                    <button onclick="window.location.href='html/two.html'" id="read">Continue Reading </button>
+                </div>
+        </article>
+
+        <hr>
+
+        <article class="item" id="Technology">
+                <img src="imgs/ai.jpg" alt="Image 2">
+                <div class="content">
+                    <h2 class="head">Is all Organizations going to lay off ??</h2>
+                    <p class="para">Published on 11 May,2024//Animal All</p>
+                    <p>
+                        I can't generate real-time news updates as my training only includes knowledge up to January 2022. However, 
+                        I can provide a simulated example of what such a news roundup might look like. Keep in mind that these are not 
+                        real news articles, but rather a fictional representation:
+                        1. Tech Giants Report Record Profits Amidst Supply Chain ChallengesIn the latest quarterly reports, tech giants 
+                        like Apple, Google, and Microsoft
+                    </p>
+                        <button onclick="window.location.href='html/three.html'" id="read">Continue Reading </button>
+                </div>
+        </article>
+
+        <hr>
+
+        <article class="item" id="Business">
+            <img src="imgs/finance.jpg" alt="Image 1" class="image">
+            <div class="content">
+                <h2 class="head">Financial Report of Indian Economy</h2>
+                <p class="para">Published on 11 May, 2024//Animal All</p>
+                <p>Deforestation in the Brazilian Amazon, which comprises nearly two-thirds of the Amazon rainforest, known as 
+                   lungs of the earth, has declined rapidly since President Luiz Inácio Lula da Silva took office in January 2023. 
+                   President Lula has made it a priority to curb deforestation in the region by reinstating conservation programs, 
+                   rebuilding and empowering environmental agencies, rallying international support for forest protection, and 
+                   showing support for Indigenous rights. The Lula administration has also reimplemented programs 
+                </p>
+                <button onclick="window.location.href='html/one.html';" id="read">Continue Reading </button>
+            </div>
+        </article>
+
+        <hr>
+
+        <article class="item" id="Sports">
+            <img src="imgs/sports2.jpg" alt="Image 2">
+            <div class="content">
+                <h2 class="head">Breaking record of AP in Khelo-India..!</h2>
+                <p class="para">Published on 11 May,2024//Animal All</p>
+                <p>Lorem ipsum dolor sit, amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit natus doloribus ea enim placeat 
+                    adipisci ex, minima voluptatem minus deserunt perferendis amet quas quia hic porro recusandae vero commodi. Ratione. 
+                    adipisicing elit. Aperiam aliquid hic iure dolor maiores at delectus, quia voluptatum dolores quos cupiditate. Recusandae 
+                    nobis iure officia ipsa? Laboriosam nihil non ut?
+                </p>
+                    <button onclick="window.location.html='html/four.html'" id="read">Continue Reading </button>
+                </div>
+        </article>
+
+        <hr>
+
+        <article class="item" id="Environment">
+            <img src="imgs/nature.jpg" alt="Image 1" class="image">
+            <div class="content">
+                <h2 class="head">Is deforestation affecting Rains in the Amazon ?</h2>
+                <p class="para">Published on 11 May, 2024//Animal All</p>
+                <p>Deforestation in the Brazilian Amazon, which comprises nearly two-thirds of the Amazon rainforest, known as 
+                   lungs of the earth, has declined rapidly since President Luiz Inácio Lula da Silva took office in January 2023. 
+                   President Lula has made it a priority to curb deforestation in the region by reinstating conservation programs, 
+                   rebuilding and empowering environmental agencies, rallying international support for forest protection, and 
+                   showing support for Indigenous rights. The Lula administration has also reimplemented programs 
+                </p>
+                <button onclick="window.location.href='html/one.html';" id="read">Continue Reading </button>
+            </div>
+        </article>
+
+    </main>
+ 
+</body>
+</html>
